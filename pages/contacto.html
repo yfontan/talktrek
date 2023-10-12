@@ -15,7 +15,11 @@
 </head>
 <body>
     <header>
-        <nav>
+        <input type="checkbox" id="btn_menu">
+        <label for="btn_menu">
+            <img src="./../assets/menu.svg" alt="Menu">
+        </label>
+        <nav class="menu">
         <ul>
             <li><a href="./../index.html">
                 <img src="./../assets/logo.png" alt="Logo">
@@ -32,21 +36,21 @@
             </li>
         </ul>
     </nav>
-</header>
+    </header>
     <main>
         <h1 class="titulos-secciones">Contacto</h1>
         <form class="formulario-de-contacto">
             <div>
                 <label for="nombre">Nombre y Apellido</label> <br>
-                <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre y apellido" required>
+                <input class="input-contacto" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre y apellido" required>
             </div>
             <div>
                 <label for="correo">Ingrese su correo</label> <br>
-                <input type="email" name="correo" placeholder="email@gmail.com" required>
+                <input class="input-contacto" type="email" name="correo" placeholder="email@gmail.com" required>
             </div>
             <div>
                 <label for="mensaje">Ingrese su consulta</label> <br>
-                <textarea name="mensaje" id="mensaje" cols="40" rows="5" placeholder="Ingrese su mensaje..."></textarea>
+                <textarea class="input-contacto-area" name="mensaje" id="mensaje" cols="40" rows="5" placeholder="Ingrese su mensaje..."></textarea>
             </div>
             <div>
             <input type="submit">
