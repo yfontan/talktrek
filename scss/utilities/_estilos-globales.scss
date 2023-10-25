@@ -1,0 +1,36 @@
+/* Fuente */
+html {
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Main */
+/* Generales */
+main{
+    margin-top: 80px;
+    min-height: 77vh;
+    .titulos-secciones{
+        font-size: 30px;
+        margin: 20px;
+        margin-left: 40px;
+        padding-top: 20px;
+    }
+    section{
+        .titulos-secciones{
+            font-size: 30px;
+            margin: 20px;
+            margin-left: 40px;
+            padding-top: 20px;
+    }
+       .links-informacion{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            a{
+                text-align: center;
+                font-size: 20px;
+                margin: 20px;
+                padding: 20px;
+            }
+        }
+    }
+}

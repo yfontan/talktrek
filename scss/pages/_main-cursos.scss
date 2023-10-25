@@ -1,0 +1,25 @@
+/* Estilo html cursos */
+.main-cursos{
+    section{
+        gap: 20px;
+        margin: 30px;
+        .card{
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 10px;
+            .img-level{
+                height: 35vh;
+            }
+            .card-body{
+                background-color: #1E1E1E;
+                color: #ffffff;
+                text-align: center;
+                .btn{
+                    background-color: #d646ec;
+                    color: #ffffff;
+                    border: 2px solid transparent;
+                }
+            }
+        }
+    }
+}

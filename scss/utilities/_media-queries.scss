@@ -1,0 +1,122 @@
+/* Estilos para pantallas de ancho igual o inferior a 1024px (Tablet) */
+/* Header */
+@media (max-width: 1024px){
+    header{
+        height: auto;
+        padding: 10px 0;
+    }
+    main{
+        .secciones{
+            margin-top: 30px;
+        }
+        .seccion-cursos{
+            .levels-section{
+                margin: 10px;
+                .levels{
+                    font-size: 25px;  
+                    margin: 5px;          
+                }
+            }
+        }
+    }
+}
+
+/* Estilos para pantallas de ancho igual o inferior a 768px (Mobile) */
+
+/* Header */
+@media (max-width: 768px){
+    header {
+        height: auto;
+        padding: 10px 0;
+        background-color: #ffffff;
+        z-index: 1;
+        #btn_menu:checked~.menu{
+            visibility: visible;
+        }
+        label{
+            display: block;
+            position: relative;
+        img{
+                width: 50px;
+            }
+        }
+        .menu{
+            position: absolute;
+            top: 65px;
+            background-color: #ffffff;
+            visibility: hidden;
+            width: 100vw;
+            margin-top: 0;
+            ul{
+                flex-direction: column;
+            }
+        }
+    }
+    // Estilo sección nosotros y html nosotros
+    main{
+        .secciones{
+            margin-top: 20px;
+            div{
+                .leyenda{
+                        font-size: 30px;
+                        padding: 30px;
+                        }
+                }        
+            }
+        }
+    // Estilo html contacto
+    .input-contacto-area {
+        width: 80%;
+    }
+    // Estilo html index
+    main{
+    // Estilo html index sección contacto
+    .secciones{
+        width: 100%;
+    }
+        .banner{
+            flex-direction: column;
+            align-items: center;
+            .titulo-principal{
+            .link-contacto{
+                padding: 20px;
+            }
+        }
+        }
+        // Estilo html index sección cursos
+        .seccion-cursos{
+            text-align: center;
+            @include flex(column, center, center);
+            margin-top: 0;
+            h3{
+                margin-left: 0px;
+            }    
+            .levels-section{
+                @include flex(column, center, center);
+                text-align: center;
+                .levels{
+                    width: 80%;
+                    height: 80px;
+                    font-size: 20px;
+                    margin: 10px 0;
+                    @include flex(column, center, center);
+                    text-align: center;
+                }
+            }
+        }
+// Estilo html index seccion como funciona
+    .seccion-como-funciona {
+        text-align: center;
+        flex-direction: column;
+        margin: 20px;
+        h3{
+            margin-left: 0px;
+        }
+        .parrafo-como-funciona{
+            font-size: 15px;
+            margin-left: 10px;
+            padding: 10px;
+        }
+    }
+    }
+}

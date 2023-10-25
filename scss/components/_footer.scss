@@ -1,0 +1,11 @@
+/* Footer */
+footer{
+    background-color: #d646ec;
+    @include flex(row, center, center);
+    padding: 20px 0;
+    div{
+        img{
+            width: 30px;
+        }
+    }
+}

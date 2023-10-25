@@ -1,0 +1,29 @@
+// Estilos globales
+@import "utilities/reset";
+
+// Estilos globales
+@import "utilities/estilos-globales";
+
+// Mixins
+@import "utilities/mixins";
+
+// Estilo header - Importación
+@import "components/header";
+
+// Estilo index - Importación
+@import "pages/main-index";
+
+// Estilo main - html Cursos
+@import "pages/main-cursos";
+
+// Estilo main - html Nosotros
+@import "pages/main-nosotros";
+
+// Estilo main - html Contacto
+@import "pages/main-contacto";
+
+// Estilo footer 
+@import "components/footer";
+
+// Estilo media-queries
+@import "utilities/media-queries";

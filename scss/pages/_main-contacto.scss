@@ -1,0 +1,20 @@
+/* Estilo html Contacto */
+main{
+    .formulario-de-contacto{
+        margin: 20px;
+        margin-left: 40px;
+        display: flex;
+        flex-direction: column;
+        div{
+            padding-top: 18px;
+            .input-contacto{
+                padding-top: 5px;
+            }
+        }
+        div{
+            .input-contacto-area{
+                padding-top: 5px;
+            }
+        }
+    }
+}
