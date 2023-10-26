@@ -1,6 +1,6 @@
 /* Footer */
 footer{
-    background-color: #d646ec;
+    background-color: nth($list: $colors, $n: 1);
     @include flex(row, center, center);
     padding: 20px 0;
     div{

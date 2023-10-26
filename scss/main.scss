@@ -1,17 +1,23 @@
 // Estilos globales
 @import "utilities/reset";
 
-// Estilos globales
-@import "utilities/estilos-globales";
-
 // Mixins
 @import "utilities/mixins";
+
+// Lists
+@import "utilities/lists";
+
+// Estilos globales
+@import "utilities/estilos-globales";
 
 // Estilo header - Importación
 @import "components/header";
 
 // Estilo index - Importación
 @import "pages/main-index";
+
+// Estilo main - html Cómo funciona
+@import "pages/main-como-funciona";
 
 // Estilo main - html Cursos
 @import "pages/main-cursos";

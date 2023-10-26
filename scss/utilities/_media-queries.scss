@@ -119,4 +119,15 @@
         }
     }
     }
+// Estilo html Cursos
+.main-cursos{
+    .languages{
+        display: flex;
+        @include flex(column, center, center);
+    .div-languages{
+        @include flex(column, center, center);
+        text-align: center;
+    }
+}
+}
 }

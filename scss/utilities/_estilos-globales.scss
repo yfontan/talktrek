@@ -8,14 +8,14 @@ html {
 main{
     margin-top: 80px;
     min-height: 77vh;
-    .titulos-secciones{
+    .sections-titles{
         font-size: 30px;
         margin: 20px;
         margin-left: 40px;
         padding-top: 20px;
     }
     section{
-        .titulos-secciones{
+        .sections-titles{
             font-size: 30px;
             margin: 20px;
             margin-left: 40px;
@@ -32,5 +32,12 @@ main{
                 padding: 20px;
             }
         }
+    }
+}
+
+.img-teacher{
+    transition: transform 0.5s; 
+    &:hover{
+        transform: rotate(360deg); 
     }
 }
