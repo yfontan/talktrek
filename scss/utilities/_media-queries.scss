@@ -78,24 +78,33 @@
             flex-direction: column;
             align-items: center;
             .titulo-principal{
+                margin-top:25px;
             .link-contacto{
                 padding: 20px;
             }
         }
         }
         // Estilo html index sección cursos
-        .seccion-cursos{
-            text-align: center;
-            @include flex(column, center, center);
-            margin-top: 0;
+        .section-courses{
+            .div-container-courses{
+                    .languages-container{
+                        display: flex;
+                        @include flex(column, center, center);
+                    .div-languages{
+                        @include flex(column, center, center);
+                        text-align: center;
+                        }
+                        }
             h3{
                 margin-left: 0px;
-            }    
+            }
+        }    
+        .div-container-courses{
             .levels-section{
                 @include flex(column, center, center);
                 text-align: center;
                 .levels{
-                    width: 80%;
+                    width: 50%;
                     height: 80px;
                     font-size: 20px;
                     margin: 10px 0;
@@ -104,6 +113,8 @@
                 }
             }
         }
+        }
+
 // Estilo html index seccion como funciona
     .seccion-como-funciona {
         text-align: center;
@@ -121,13 +132,15 @@
     }
 // Estilo html Cursos
 .main-cursos{
+    .section-languages{
     .languages{
         display: flex;
         @include flex(column, center, center);
     .div-languages{
         @include flex(column, center, center);
         text-align: center;
+        }
+        }
+        }
     }
-}
-}
 }

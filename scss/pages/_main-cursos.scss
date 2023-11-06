@@ -1,29 +1,35 @@
 /* Estilo html cursos */
 .main-cursos{
-    .titulo-cursos{
+    .section-languages{
+    .titulo-idiomas{
         font-size: 25px;
         text-align: center;
     }
     .languages{
         display: flex;
-    .div-languages{
-        width: 30%;
-        @include flex(row, center, space-between);
-        background-color:#ccc;
-        border: 1px solid nth($list: $colors, $n: 5);
-        padding: 20px;
-        margin: 10px;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        text-align: center;
+        .div-languages{
+            width: 30%;
+            @include flex(row, center, space-between);
+            background-color:#ccc;
+            border: 1px solid nth($list: $colors, $n: 5);
+            padding: 20px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
                 .img-languages{
                     width: 100px;
         }
     }
 }
+    }
     section{
         gap: 20px;
         margin: 30px;
+        .titulo-niveles{
+            font-size: 25px;
+            text-align: center;
+        }
         .card{
             padding-left: 0;
             padding-right: 0;
