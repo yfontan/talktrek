@@ -6,7 +6,7 @@
         padding: 10px 0;
     }
     main{
-        .secciones{
+        .section{
             margin-top: 30px;
         }
         .seccion-cursos{
@@ -54,10 +54,10 @@
     }
     // Estilo sección nosotros y html nosotros
     main{
-        .secciones{
+        .section{
             margin-top: 20px;
             div{
-                .leyenda{
+                .message{
                         font-size: 30px;
                         padding: 30px;
                         }
@@ -65,13 +65,13 @@
             }
         }
     // Estilo html contacto
-    .input-contacto-area {
+    .contact-input-area {
         width: 80%;
     }
     // Estilo html index
     main{
     // Estilo html index sección contacto
-    .secciones{
+    .section{
         width: 100%;
     }
         .banner{
@@ -79,7 +79,7 @@
             align-items: center;
             .titulo-principal{
                 margin-top:25px;
-            .link-contacto{
+            .contact-link{
                 padding: 20px;
             }
         }
@@ -123,7 +123,7 @@
         h3{
             margin-left: 0px;
         }
-        .parrafo-como-funciona{
+        .paragraph-como-funciona{
             font-size: 15px;
             margin-left: 10px;
             padding: 10px;

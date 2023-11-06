@@ -1,19 +1,19 @@
 /* Estilo html Contacto */
 main{
-    .formulario-de-contacto{
+    .contact-form{
         margin: 20px;
         margin-left: 40px;
         display: flex;
         flex-direction: column;
         div{
             padding-top: 18px;
-            .input-contacto{
+            .contact-input{
                 padding-top: 5px;
                 width: 50%;
             }
         }
         div{
-            .input-contacto-area{
+            .contact-input-area{
                 padding-top: 5px;
                 width: 50%;
             }

@@ -15,7 +15,7 @@ main{
                 flex-direction: column;
                 text-align: center;
                 font-size: 30px;
-                .link-contacto{
+                .contact-link{
                     padding: 70px 50px;
                     text-align: center;
                     font-size: 20px;
@@ -24,10 +24,10 @@ main{
                 }
             }
 // Estilo html index sección nosotros
-    .secciones{
+    .section{
             margin-top: 50px;
             div{
-                .leyenda{
+                .message{
                     font-size: 40px;
                     text-align: center;
                     margin-top: 20px;                    
@@ -89,7 +89,7 @@ main{
 
 // Estilo html index sección cómo funciona
     .seccion-como-funciona{
-                        .parrafo-como-funciona{
+                        .paragraph-como-funciona{
                             font-size: 25px;
                             margin-left: 20px;
                             padding: 20px;

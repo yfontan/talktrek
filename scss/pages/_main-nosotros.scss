@@ -1,7 +1,7 @@
 /* Estilo html Nosotros */
 main{
-    .secciones{
-        .img-profes{
+    .section{
+        .img-profesor{
             display: flex;
             justify-content: space-evenly;
             margin-top: 20px;
@@ -11,7 +11,7 @@ main{
                 height: 130px;
             }
         }
-        .parrafo-nosotros{
+        .paragraph-nosotros{
             margin: 20px;
             padding: 20px;
         }
