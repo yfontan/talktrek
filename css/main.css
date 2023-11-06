@@ -209,6 +209,7 @@ main .seccion-como-funciona .parrafo-como-funciona {
 }
 .main-cursos .section-languages .languages {
   display: flex;
+  justify-content: center;
 }
 .main-cursos .section-languages .languages .div-languages {
   width: 30%;
