@@ -65,8 +65,11 @@
             }
         }
     // Estilo html contacto
+    .main-contacto{
+        min-height: 80vh;
     .contact-input-area {
         width: 80%;
+    }
     }
     // Estilo html index
     main{
@@ -96,7 +99,7 @@
                         }
                         }
             h3{
-                margin-left: 0px;
+                margin-left: 15px;
             }
         }    
         .div-container-courses{

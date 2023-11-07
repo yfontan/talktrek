@@ -1,7 +1,7 @@
 /* Estilos HTML Cómo funciona*/
+.como-funciona{
 .div-como-funciona {
-  margin-left: 40px;
-  padding-bottom: 30px;
+  margin: 10px;
     .card-como-funciona {
       display: flex;
       flex-direction: column;
@@ -24,4 +24,5 @@
           background-image: linear-gradient(to bottom, #d646ec, transparent);
       }
   }
+}
 }

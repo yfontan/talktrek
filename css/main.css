@@ -175,11 +175,10 @@ main .seccion-como-funciona .paragraph-como-funciona {
 }
 
 /* Estilos HTML Cómo funciona*/
-.div-como-funciona {
-  margin-left: 40px;
-  padding-bottom: 30px;
+.como-funciona .div-como-funciona {
+  margin: 10px;
 }
-.div-como-funciona .card-como-funciona {
+.como-funciona .div-como-funciona .card-como-funciona {
   display: flex;
   flex-direction: column;
   border: 1px solid #ccc;
@@ -187,16 +186,16 @@ main .seccion-como-funciona .paragraph-como-funciona {
   padding: 10px;
   margin: 10px;
 }
-.div-como-funciona .card-como-funciona .short-text {
+.como-funciona .div-como-funciona .card-como-funciona .short-text {
   font-size: 20px;
   transition: opacity 0.5s;
   font-weight: bold;
 }
-.div-como-funciona .card-como-funciona .long-text {
+.como-funciona .div-como-funciona .card-como-funciona .long-text {
   width: 100%;
   height: 100%;
 }
-.div-como-funciona .card-como-funciona:hover {
+.como-funciona .div-como-funciona .card-como-funciona:hover {
   cursor: pointer;
   opacity: 1;
   background-image: linear-gradient(to bottom, #d646ec, transparent);
@@ -358,7 +357,10 @@ footer div img {
     font-size: 30px;
     padding: 30px;
   }
-  .contact-input-area {
+  .main-contacto {
+    min-height: 80vh;
+  }
+  .main-contacto .contact-input-area {
     width: 80%;
   }
   main .section {
@@ -389,7 +391,7 @@ footer div img {
     text-align: center;
   }
   main .section-courses .div-container-courses h3 {
-    margin-left: 0px;
+    margin-left: 15px;
   }
   main .section-courses .div-container-courses .levels-section {
     display: flex;
