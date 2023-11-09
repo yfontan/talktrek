@@ -122,13 +122,15 @@
     .seccion-como-funciona {
         text-align: center;
         flex-direction: column;
+        display: flex;
+        justify-content: center;
         margin: 20px;
         h3{
             margin-left: 0px;
         }
         .paragraph-como-funciona{
             font-size: 15px;
-            margin-left: 10px;
+            margin-left: 0px;
             padding: 10px;
         }
     }

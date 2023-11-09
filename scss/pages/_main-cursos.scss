@@ -11,7 +11,7 @@
         .div-languages{
             width: 30%;
             @include flex(row, center, space-between);
-            background-color:#ccc;
+            background-color:nth($list: $colors, $n: 2);
             border: 1px solid nth($list: $colors, $n: 5);
             padding: 20px;
             margin: 10px;

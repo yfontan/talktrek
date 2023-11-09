@@ -53,7 +53,7 @@ main{
         .div-languages{
             width: 30%;
             @include flex(row, center, space-between);
-            background-color:#ccc;
+            background-color:nth($list: $colors, $n: 2);
             border: 1px solid nth($list: $colors, $n: 5);
             padding: 20px;
             margin: 10px;
@@ -77,7 +77,8 @@ main{
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             text-align: center;
-            border: 2px solid #d646ec;
+            border: 2px solid nth($list: $colors, $n: 1);
+            background-color: nth($list: $colors, $n: 2);
             width: 300px;
             height: 100px;
             text-align: center;

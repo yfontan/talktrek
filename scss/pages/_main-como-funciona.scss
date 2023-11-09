@@ -21,7 +21,7 @@
       &:hover{
           cursor: pointer;
           opacity: 1;
-          background-image: linear-gradient(to bottom, #d646ec, transparent);
+          background-image: linear-gradient(to bottom, transparent, nth($list: $colors, $n: 7));
       }
   }
 }

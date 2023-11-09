@@ -8,6 +8,7 @@ html {
 main{
     margin-top: 80px;
     min-height: 77vh;
+    background-image: linear-gradient(to bottom, nth($list: $colors, $n: 6), nth($list: $colors, $n: 2));
     .sections-titles{
         font-size: 30px;
         margin: 20px;
